@@ -264,7 +264,7 @@ p {
   }
 }/* END MOBILE */
 
-@media screen and (min-width: 900) {
+@media screen and (min-width: 900px) {
   .hidden-desktop {
     display:none!important;
   }
