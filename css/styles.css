@@ -5,6 +5,7 @@ p {
   font-size: 1.2em;
 }
 
+
 /* HERO SECTION DESKTOP */
 .t-hero-white > h1{
   color:#fff;
@@ -191,6 +192,33 @@ p {
 
 /* MOBILE */
 
+@media screen and (max-width: 560px) {
+  .t-hero-white > h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.6em!important;
+    padding-top: 50px;
+  } 
+
+  .getapp {
+    width: 150px;
+  }
+
+  .heroimg-player {
+    right: 0;
+    position: absolute;
+    bottom: -70px!important;
+  }
+
+  #bola-volei-hero {
+    left: 50px!important;
+    top: 590px!important;
+    width: 80px!important;
+}
+
+}
+
+
 @media screen and (max-width: 900px){
   .t-hero-white > h1 {
     color: #fff;
@@ -199,6 +227,20 @@ p {
     padding-top: 50px;
   }
 
+  .logo-atleta-do-volei-footer {
+    width: 230px;
+  }
+  .white-subtitle {
+    font-size: 1.6em;
+  }
+
+  .black-subtitle{
+    font-size: 1.6em!important;
+  }
+
+  .social-icon-footer {
+    transform: scale(0.76);
+  }
   .container {
     padding: 0 1em;
   }
@@ -232,8 +274,8 @@ p {
     font-size: 2em;
   }
 
-  .mobile-margin-70-0 {
-    margin: 70px 0;
+  .mob-margin-somos-atleta {
+    margin: 0 0 100px 0;
   }
 
   .baixar-app-grey {
@@ -268,5 +310,10 @@ p {
   .hidden-desktop {
     display:none!important;
   }
+  
+  .t-hero-white > h1{
+    padding-right: 6em;
+  }
+
 }
 /* test */
