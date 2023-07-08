@@ -412,3 +412,9 @@ p {
   }
   
 }
+
+@media screen and (max-width: 900px) {
+  .thumb-video > img {
+    max-width: 100%;
+  }
+}
