@@ -393,3 +393,22 @@ p {
 .accordion-body {
   padding: 50px 20px;
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1600px){
+  #moving {
+    width: 500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+  }
+  
+  #bola-volei-hero {
+    position: absolute;
+    left: 54%;
+    top: 42%;
+    animation: spin-clockwise 20s infinite linear;
+    width: 140px;
+    opacity: 0.94;
+  }
+  
+}
