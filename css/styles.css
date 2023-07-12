@@ -420,8 +420,13 @@ p {
 }
 
 
-@media screen and ( max-height: 768px ){
+@media screen and ( max-height: 700px ){
     #hero-atleta {
       min-height: 100vh;
     }
+
+    .t-hero-white>h1 {
+      font-size: 2.5em;
+  }
+
 }
