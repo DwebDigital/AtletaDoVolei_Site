@@ -418,3 +418,10 @@ p {
     max-width: 100%;
   }
 }
+
+
+@media screen and ( max-height: 768px ){
+    #hero-atleta {
+      min-height: 100vh;
+    }
+}
