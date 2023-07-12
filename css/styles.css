@@ -40,7 +40,7 @@ p {
 }
 
 #hero-atleta {
-  background: url('../assets/bg-home-top.png') no-repeat bottom center;
+  background: url('../assets/bg-home-top.svg') no-repeat bottom center;
   height: 80vh;
   background-size: cover;
   padding-top: .4em;
